@@ -1,0 +1,33 @@
+/*
+  Agregar estilos
+  1. Posicionamiento
+  2. Modelo de caja (box model)
+  3. Tipografia
+  4. Estilos visuales
+  5. Otros
+*/
+
+:root {
+  /* Variables para los colores */
+  --bitcoin-orange: #F7931A;
+  --soft-orange: #FFE9D5;
+  --secondary-blue: #1A9AF7;
+  --soft-blue: #E7F5FF;
+  --warm-black: #201E1C;
+  --warm-black-alt: #282623;
+  --grey: #BABABA;
+  --off-white: #FAF8F7;
+  --white: #FFFFFF;
+  --bg-color: #E5E5E5;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: 'DM Sans', sans-serif;
+}
