@@ -1,0 +1,20 @@
+.main--exchange--tables {
+  display: flex;
+  flex-direction: column;
+  width: 930px;
+  margin: 0 auto;
+}
+.main--exchange--tables .main-tables--titles {
+  text-align: center;
+}
+
+.product-cards--container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 930px;
+  margin: 0 auto;
+}
+
+.plans-container--slider {
+  justify-content: center;
+}
