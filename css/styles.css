@@ -398,9 +398,9 @@ main {
   position: relative;
   scroll-snap-align: center;
   width: 70%;
-  min-width: 230px;
+  min-width: 190px;
   max-width: 300px;
-  margin: 50px 10px 0;
+  margin: 50px 5px 0;
   padding: 0 15px;
   background-color: var(--white);
   border-radius: 15px;
@@ -465,3 +465,31 @@ main {
   background-image: url('../assets/icons/arrow-right-1.svg');
   vertical-align: text-bottom;
 }
+
+footer {
+  display: flex;
+  width: 100%;
+  height: 150px;
+  background-color: var(--bitcoin-orange);
+}
+footer section {
+  display: flex;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+}
+footer .footer--left ul {
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  list-style: none;
+}
+.footer--left li {
+  margin: 10px 0;
+}
+.footer--left a {
+  text-decoration: none;
+  color: var(--white);
+}
+
+
