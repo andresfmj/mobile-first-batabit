@@ -376,8 +376,8 @@ main {
   line-height: 2.6rem;
   color: var(--warm-black);
 }
-.plans--title p {
-  padding-top: 30px;
+.main-plans--container p {
+  padding-top: 5px;
   font-size: 1.4rem;
   font-weight: 500;
   line-height: 1.8rem;
@@ -396,4 +396,43 @@ main {
   border-radius: 15px;
   box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
 }
+
+.plans-container--card .recommended {
+  position: absolute;
+  width: 120px;
+  height: 31px;
+  left: calc(50% - 60px);
+  top: -13px;
+  margin: 0;
+  padding: 6px;
+  background-color: var(--bitcoin-orange);
+  border-radius: 8px;
+  color: var(--white);
+}
+.plan-info--title {
+  padding-top: 50px;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  color: var(--warm-black);
+}
+.plans-container--card .plan-info--price {
+  padding: 5px 0;
+  font-size: 5.2rem;
+  font-weight: bold;
+  line-height: 5.3rem;
+  color: var(--warm-black);
+}
+.plan-info--price span {
+  position: relative;
+  top: -30px;
+  left: 8px;
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+.plan-info--saving {
+  font-size: 1.2rem;
+  color: #757575;
+}
+
 
